@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            /*o conteudo se adapta entre 800px e 320px*/
+            min-width: 280px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* imagem responsiva*/
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>testando responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, laudantium corporis! Quia, quas nesciunt magni dolor, optio provident illum facere quae aperiam at adipisci voluptatibus iusto distinctio a blanditiis sit!Lorem   Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam accusamus consequatur, dolor est, quibusdam laudantium cumque eum aut sit nemo incidunt fuga esse similique eveniet? Quas quam architecto ducimus unde? Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fugiat similique iusto laborum laudantium, praesentium illum rerum blanditiis delectus alias iure est exercitationem aperiam officia voluptatibus doloribus, assumenda eaque eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae libero minus ex magni maiores nemo accusantium! Iure repudiandae, ad impedit repellendus nobis optio. Esse unde quasi sapiente aspernatur id voluptatibus!</p>
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="irina blok">
+        </picture>
+        <h1>testando responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, laudantium corporis! Quia, quas nesciunt magni dolor, optio provident illum facere quae aperiam at adipisci voluptatibus iusto distinctio a blanditiis sit!Lorem   Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam accusamus consequatur, dolor est, quibusdam laudantium cumque eum aut sit nemo incidunt fuga esse similique eveniet? Quas quam architecto ducimus unde? Lorem ipsum dolor sit amet consectetur adipisicing elit. Non fugiat similique iusto laborum laudantium, praesentium illum rerum blanditiis delectus alias iure est exercitationem aperiam officia voluptatibus doloribus, assumenda eaque eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae libero minus ex magni maiores nemo accusantium! Iure repudiandae, ad impedit repellendus nobis optio. Esse unde quasi sapiente aspernatur id voluptatibus!</p>
+    </main>
+</body>
+</html>

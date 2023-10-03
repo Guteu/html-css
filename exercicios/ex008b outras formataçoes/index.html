@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>outras formatações</title>
+</head>
+<body>
+    <h1>Outras formataçoes</h1>  
+    <h2>codigo fonte e pre formatação</h2>  
+    <p><code>esta formatação ( tag &lt;code&gt;)</code> é monoespaçada, ou seja, todas as letras ocupam o mesmo espaço (bom pra ler codigos)</p>
+    <p>uma maneira facil de arrumar o código e por identaçao é usando a tag &lt;pre&gt;<br>
+    exemplo usando um codigo do VisuAlg:</p>
+    <pre>
+        <code>
+algoritmo "ParOuImpar"
+var
+    N: inteiro
+inicio
+    escreva ("Digite um numero: ")
+    Leia (N)
+    se (N % 2 = 0) entao
+        escreval ("O numero ",N," é PAR")
+    senao
+        escreval ("o numero ",N, " é IMPAR")
+    FimSe
+fimalgoritmo
+        </code>
+    </pre>
+    <h2>citaçoes simples</h2>
+    <P>como diria o pai de um amigo: <q>o comutador é um burro muito rapido.</q>(tag &lt;q&gt;)<br>
+    usar essa tag é semantica, diferentemente de só botar as aspas ""</P>
+    <h2>citaçoes completas</h2>
+    <p>segundo crazy frog na sua canção crazy frog - axel f:</p>
+    <blockquote cite="https://www.youtube.com/watch?v=k85mRPqvMbE">
+        ding ding bambom ring ding dong
+    </blockquote>
+    <p>a tag usada foi o &lt;blockquote&gt; e se voce botar um cite="(link do que voce esta citando)" dentro da tag, voce pode citar quem foi citado para o sistema interno(mecanismo de busca, google etc) mas nao muda nada visualmente</p>
+    <h2>abreviaçoes</h2>
+    <p>estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>texto invertido</h2>
+    <p><bdo dir="rtl">Adoro mingau da minha vó.</bdo>(tag bdo dir="rtl ou ltr")[rlt = right to left / ltr = left to right]</p>
+
+</body>
+</html>
